@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML图像</title>
+</head>
+<body>
+<h2>未设置对齐方式的图像：</h2>
+
+<p>图像 <img src ="../images/kobe.jpg" width="104" height="142"> 在文本中</p>
+
+<h2>已设置对齐方式的图像：</h2>
+
+<p>图像 <img src="../images/kobe.jpg" align="bottom" width="104" height="142"> 在文本中</p>
+
+<p>图像 <img src ="../images/kobe.jpg" align="middle" width="104" height="142"> 在文本中</p>
+
+<p>图像 <img src ="../images/kobe.jpg" align="top" width="104" height="142"> 在文本中</p>
+
+<p>请注意，bottom 对齐方式是默认的对齐方式。</p>
+
+<h2>浮动图像-本例演示如何使图片浮动至段落的左边或右边</h2>
+<p>
+    <img src="../images/kobe.jpg" align="left" width="104" height="142">
+    带有图像的一个段落。图像的 align 属性设置为 "left"。图像将浮动到文本的左侧。
+</p>
+
+<p>
+    <img src="../images/kobe.jpg" align="right" width="104" height="142">
+    带有图像的一个段落。图像的 align 属性设置为 "right"。图像将浮动到文本的右侧。
+</p>
+
+<h2>如无图像，显示文本信息</h2>
+<p>仅支持文本的浏览器无法显示图像，仅仅能够显示在图像的 "alt" 属性中指定的文本。在这里，"alt" 的文本是“kobe”。</p>
+<p>请注意，如果您把鼠标指针移动到图像上，大多数浏览器会显示 "alt" 文本。</p>
+
+<img src="../images/kobe.jpg" width="104" height="142" alt="kobe" />
+
+<p>如果无法显示图像，将显示 "alt" 属性中的文本：</p>
+<img src="../images/kobe1.jpg" width="104" height="142" alt="kobe" />
+
+<h2>将图片作为一个连接</h2>
+<p>
+    您也可以把图像作为链接来使用，点击图片跳转百度：
+    <a href="http://www.baidu.com">
+        <img border="0" src="../images/kobe.jpg" width="104" height="142" />
+    </a>
+</p>
+
+</body>
+</html>
